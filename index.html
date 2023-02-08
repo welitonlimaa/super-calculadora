@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+	<main>
+		<div class="header">
+			<h1>Super Calculadora</h1>
+			<form>
+				<label for="numeroA">
+					Primeiro número (A)
+					<input id="numeroA" />
+				</label>
+				<label for="numeroB">
+					Segundo número (B)
+					<input id="numeroB" />
+				</label>
+				<button type="button" id="btnCalcular">Calcular</button>
+			</form>
+		</div>
+		<table>
+			<tr>
+				<td>
+					<h4>Soma</h4>
+					<p id="soma"></p>
+				</td>
+				<td>
+					<h4>Subtração A - B</h4>
+					<p id="subtracaoAB"></p>
+				</td>
+				<td>
+					<h4>Subtração B - A</h4>
+					<p id="subtracaoBA"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Multiplicação</h4>
+					<p id="multiplicacao"></p>
+				</td>
+				<td>
+					<h4>Divisão A/B</h4>
+					<p id="divisaoAB"></p>
+				</td>
+				<td>
+					<h4>Divisão B/A</h4>
+					<p id="divisaoBA"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Potência de A na base B</h4>
+					<p id="potenciaAemB"></p>
+				</td>
+				<td>
+					<h4>Potência de B na base A</h4>
+					<p id="potenciaBemA"></p>
+				</td>
+				<td>
+					<h4>Raiz quadrada de A:</h4>
+					<p id="raizDeA"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Raiz quadrada de B:</h4>
+					<p id="raizDeB"></p>
+				</td>
+				<td>
+					<h4>Fatorial de A</h4>
+					<p id="fatorialDeA"></p>
+				</td>
+				<td>
+					<h4>Fatorial de B</h4>
+					<p id="fatorialDeB"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Porcentagem de A em relação a B</h4>
+					<p id="porcentagemAB"></p>
+				</td>
+				<td>
+					<h4>Porcentagem de B em relação a A:</h4>
+					<p id="porcentagemBA"></p>
+				</td>
+				<td>
+					<h4>Média</h4>
+					<p id="media"></p>
+				</td>
+			</tr>
+		</table>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
